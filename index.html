@@ -31,14 +31,18 @@
         center: [0, 0],
         zoom: 3
       });
-
-      const satelliteLayer = L.tileLayer('styleSatelite/{z}/{x}/{y}.jpg', {
+      const satelliteLayer = L.tileLayer('https://niaoubregatoula.github.io/custom-leaflet-map/styleSatelite/{z}/{x}/{y}.jpg', {
         minZoom: 0,
         maxZoom: 8,
         noWrap: true
       }).addTo(map);
-
       const marker = L.marker([0, 0]).addTo(map).bindPopup("I am here.");
+      const anotherMarker = L.marker([10, 10]).addTo(map).bindPopup("Another player");
+      const bounds = [
+        [85, -180], 
+        [-85, 180] 
+      ];
+      map.setMaxBounds(bounds);
     </script>
   </body>
 </html>
