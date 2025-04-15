@@ -4,6 +4,8 @@
 It allows you to **track players live** on an actual GTA V map using their in-game coordinates — providing  
 a real-time overview of your server’s player movement and activity.
 
+- Special thanks to https://github.com/RiceaRaul/gta-v-map-leaflet
+
 ![Preview](https://github.com/user-attachments/assets/a5d1abd8-eeb4-46ea-9721-69033a851887)
 
 ---
